@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://cfg.lo8.poznan.pl/sitemap.xml

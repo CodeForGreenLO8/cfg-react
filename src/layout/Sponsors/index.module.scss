@@ -1,0 +1,26 @@
+@import "src/styles/vars.scss";
+.section {
+    text-align: center;
+    padding: 40px 0;
+    letter-spacing: 3px;
+    position: relative;
+    background: #2c3e50;
+    color: white;
+}
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+}
+.item {
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    & > img {
+        max-height: 120px;
+    }
+}
